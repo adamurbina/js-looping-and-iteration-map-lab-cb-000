@@ -1,5 +1,5 @@
-function lowerCaseDrivers() {
-
+function lowerCaseDrivers(collection) {
+  return collection.map(item.toLowerCase())
 }
 
 function nameToAttributes() {
